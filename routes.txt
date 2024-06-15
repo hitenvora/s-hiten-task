@@ -1,0 +1,87 @@
+
+  GET|HEAD   / .............................................. dashboard-overview-1 › PageController@dashboardOverview1
+  POST       _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
+  GET|HEAD   _ignition/health-check ............ ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST       _ignition/update-config ......... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD   accordion-page ..................................................... accordion › PageController@accordion
+  GET|HEAD   add-product-page ................................................ add-product › PageController@addProduct
+  GET|HEAD   alert-page ................................................................. alert › PageController@alert
+  GET|HEAD   api/user ................................................................................................ 
+  GET|HEAD   blog-layout-1-page ........................................... blog-layout-1 › PageController@blogLayout1
+  GET|HEAD   blog-layout-2-page ........................................... blog-layout-2 › PageController@blogLayout2
+  GET|HEAD   blog-layout-3-page ........................................... blog-layout-3 › PageController@blogLayout3
+  GET|HEAD   button-page .............................................................. button › PageController@button
+  GET|HEAD   calendar-page ........................................................ calendar › PageController@calendar
+  GET|HEAD   categories-page .................................................. categories › PageController@categories
+  GET|HEAD   change-password-page .................................... change-password › PageController@changePassword
+  GET|HEAD   chart-page ................................................................. chart › PageController@chart
+  GET|HEAD   chat-page .................................................................... chat › PageController@chat
+  GET|HEAD   color-scheme-switcher/{color_scheme} ............... color-scheme-switcher › ColorSchemeController@switch
+  GET|HEAD   crud-data-list-page ........................................ crud-data-list › PageController@crudDataList
+  GET|HEAD   crud-form-page ...................................................... crud-form › PageController@crudForm
+  GET|HEAD   dark-mode-switcher ....................................... dark-mode-switcher › DarkModeController@switch
+  GET|HEAD   dashboard-overview-2-page ...................... dashboard-overview-2 › PageController@dashboardOverview2
+  GET|HEAD   dashboard-overview-3-page ...................... dashboard-overview-3 › PageController@dashboardOverview3
+  GET|HEAD   dashboard-overview-4-page ...................... dashboard-overview-4 › PageController@dashboardOverview4
+  GET|HEAD   datepicker-page .................................................. datepicker › PageController@datepicker
+  GET|HEAD   dropdown-page ........................................................ dropdown › PageController@dropdown
+  GET|HEAD   error-page-page ................................................... error-page › PageController@errorPage
+  GET|HEAD   faq-layout-1-page .............................................. faq-layout-1 › PageController@faqLayout1
+  GET|HEAD   faq-layout-2-page .............................................. faq-layout-2 › PageController@faqLayout2
+  GET|HEAD   faq-layout-3-page .............................................. faq-layout-3 › PageController@faqLayout3
+  GET|HEAD   file-manager-page ............................................. file-manager › PageController@fileManager
+  GET|HEAD   file-upload-page ................................................ file-upload › PageController@fileUpload
+  GET|HEAD   icon-page .................................................................... icon › PageController@icon
+  GET|HEAD   image-zoom-page ................................................... image-zoom › PageController@imageZoom
+  GET|HEAD   inbox-page ................................................................. inbox › PageController@inbox
+  GET|HEAD   invoice-layout-1-page .................................. invoice-layout-1 › PageController@invoiceLayout1
+  GET|HEAD   invoice-layout-2-page .................................. invoice-layout-2 › PageController@invoiceLayout2
+  GET|HEAD   loading-icon-page ............................................. loading-icon › PageController@loadingIcon
+  GET|HEAD   login ............................................................ login.index › AuthController@loginView
+  POST       login ................................................................ login.check › AuthController@login
+  GET|HEAD   login-page ................................................................. login › PageController@login
+  GET|HEAD   logout ................................................................... logout › AuthController@logout
+  GET|HEAD   modal-page ................................................................. modal › PageController@modal
+  GET|HEAD   notification-page ............................................ notification › PageController@notification
+  GET|HEAD   point-of-sale-page ........................................... point-of-sale › PageController@pointOfSale
+  GET|HEAD   post-page .................................................................... post › PageController@post
+  GET|HEAD   pricing-layout-1-page .................................. pricing-layout-1 › PageController@pricingLayout1
+  GET|HEAD   pricing-layout-2-page .................................. pricing-layout-2 › PageController@pricingLayout2
+  GET|HEAD   product-grid-page ............................................. product-grid › PageController@productGrid
+  GET|HEAD   product-list-page ............................................. product-list › PageController@productList
+  GET|HEAD   profile-overview-1-page ............................ profile-overview-1 › PageController@profileOverview1
+  GET|HEAD   profile-overview-2-page ............................ profile-overview-2 › PageController@profileOverview2
+  GET|HEAD   profile-overview-3-page ............................ profile-overview-3 › PageController@profileOverview3
+  GET|HEAD   progress-bar-page ............................................. progress-bar › PageController@progressBar
+  GET|HEAD   register-page ........................................................ register › PageController@register
+  GET|HEAD   regular-form-page ............................................. regular-form › PageController@regularForm
+  GET|HEAD   regular-table-page .......................................... regular-table › PageController@regularTable
+  GET|HEAD   reviews-page ........................................................... reviews › PageController@reviews
+  GET|HEAD   sanctum/csrf-cookie ................... sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD   seller-detail-page .......................................... seller-detail › PageController@sellerDetail
+  GET|HEAD   seller-list-page ................................................ seller-list › PageController@sellerList
+  GET|HEAD   slide-over-page ................................................... slide-over › PageController@slideOver
+  GET|HEAD   slider-page .............................................................. slider › PageController@slider
+  GET|HEAD   tab-page ....................................................................... tab › PageController@tab
+  GET|HEAD   tabulator-page ..................................................... tabulator › PageController@tabulator
+  GET|HEAD   tom-select-page ................................................... tom-select › PageController@tomSelect
+  GET|HEAD   tooltip-page ........................................................... tooltip › PageController@tooltip
+  GET|HEAD   transaction-detail-page ........................... transaction-detail › PageController@transactionDetail
+  GET|HEAD   transaction-list-page ................................. transaction-list › PageController@transactionList
+  GET|HEAD   typography-page .................................................. typography › PageController@typography
+  GET|HEAD   update-profile-page ....................................... update-profile › PageController@updateProfile
+  GET|HEAD   users-layout-1-page ........................................ users-layout-1 › PageController@usersLayout1
+  GET|HEAD   users-layout-2-page ........................................ users-layout-2 › PageController@usersLayout2
+  GET|HEAD   users-layout-3-page ........................................ users-layout-3 › PageController@usersLayout3
+  GET|HEAD   validation-page .................................................. validation › PageController@validation
+  GET|HEAD   wizard-layout-1-page ..................................... wizard-layout-1 › PageController@wizardLayout1
+  GET|HEAD   wizard-layout-2-page ..................................... wizard-layout-2 › PageController@wizardLayout2
+  GET|HEAD   wizard-layout-3-page ..................................... wizard-layout-3 › PageController@wizardLayout3
+  GET|HEAD   wysiwyg-editor-balloon-block-page wysiwyg-editor-balloon-block › PageController@wysiwygEditorBalloonBlock
+  GET|HEAD   wysiwyg-editor-balloon-page ................ wysiwyg-editor-balloon › PageController@wysiwygEditorBalloon
+  GET|HEAD   wysiwyg-editor-classic-page ................ wysiwyg-editor-classic › PageController@wysiwygEditorClassic
+  GET|HEAD   wysiwyg-editor-document-page ............. wysiwyg-editor-document › PageController@wysiwygEditorDocument
+  GET|HEAD   wysiwyg-editor-inline-page ................... wysiwyg-editor-inline › PageController@wysiwygEditorInline
+
+                                                                                                   Showing [83] routes
+

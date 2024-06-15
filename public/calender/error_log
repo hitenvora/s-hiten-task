@@ -1,0 +1,19 @@
+[01-Nov-2023 05:14:11 UTC] PHP Warning:  Undefined array key "_customer_details_id" in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 16
+[01-Nov-2023 05:14:11 UTC] PHP Warning:  Undefined array key "_customer_details_id" in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 19
+[01-Nov-2023 05:14:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '')' at line 1 in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php:25
+Stack trace:
+#0 /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php(25): mysqli_query(Object(mysqli), 'select * from `...')
+#1 {main}
+  thrown in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 25
+[01-Nov-2023 05:22:21 UTC] PHP Warning:  Undefined array key "_customer_details_id" in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 19
+[01-Nov-2023 05:22:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '')' at line 1 in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php:25
+Stack trace:
+#0 /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php(25): mysqli_query(Object(mysqli), 'select * from `...')
+#1 {main}
+  thrown in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 25
+[01-Nov-2023 05:23:09 UTC] PHP Warning:  Undefined array key "_customer_details_id" in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 19
+[01-Nov-2023 05:23:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php:25
+Stack trace:
+#0 /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php(25): mysqli_query(Object(mysqli), 'select * from `...')
+#1 {main}
+  thrown in /home3/akshat51/demo.vruttiitsolutions.com/public/calender/display_event.php on line 25
